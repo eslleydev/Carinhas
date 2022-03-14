@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    gap: 4px;
+    background: #222;
+    overflow: hidden;
+}
+
+:root {
+    --clr1: #ff0087;
+    --clr2: #01ff5f;
+}
+
+label {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+label input {    
+    appearance: none;
+}
+
+label .face {
+    position: absolute;
+    inset: 0;
+    background: #333;
+    border-radius: 50%;
+    cursor: pointer;
+}
